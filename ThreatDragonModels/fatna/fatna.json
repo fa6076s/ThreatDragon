@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "d9608fce-0132-4e06-b112-f4ae5effc6ed",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "WEB App",
@@ -196,6 +196,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -279,7 +280,6 @@
               ]
             },
             "id": "cc3c1f08-4b3a-434a-90a7-0eacc0b1c62f",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "DB",
@@ -317,6 +317,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -400,7 +401,6 @@
               ]
             },
             "id": "3b296367-898c-463b-8f7e-4d6698b54f51",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -434,6 +434,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -517,7 +518,6 @@
               ]
             },
             "id": "192afc6d-04cb-4d68-9e14-659c2c424cfd",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
